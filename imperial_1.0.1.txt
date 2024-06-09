@@ -1,0 +1,2235 @@
+--ImperialHub
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/SilentExpl/NothingNew/main/Nothing.txt")))()
+
+MakeWindow({
+  Hub = {
+    Title = "🕷 - IMPERIAL HUB V1.1| BROOKHAVEN- RP 🏠 | -  🕷",
+    Animation = "BY: 🎭 - Imperial Hub"
+  },
+  Key = {
+    KeySystem = false,
+    Title = " KEY system",
+    Description = "label!",
+    KeyLink = "label",
+    Keys = {"label"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Running the Script...",
+      Incorrectkey = "The key is incorrect",
+      CopyKeyLink = "Copied to Clipboard"
+    }
+  }
+})
+
+MinimizeButton({
+  Image = "rbxassetid://17527279121",
+  Size = {40, 40},
+  Color = Color3.fromRGB(10, 10, 10),
+  Corner = true,
+  Stroke = true,
+  StrokeColor = Color3.fromRGB(255, 0, 0)
+})
+
+MakeNotifi({
+  Title = "🌐 Imperial Hub 🌐",
+  Text = "Olá, Obrigado por usar meu hub!! Caso de sugestões entre em contato pelo discord. ass: Styxz ♥",
+  Time = 6
+})
+
+local Main = MakeTab({Name = "🎭 - Imperial Hub"})
+
+local section = AddSection(Main, {"📜 - INFO HUB "})
+
+local Paragraph = AddParagraph(Main, {"📑 - Informações: ", "Coming soon."})
+
+SetParagraph(Paragraph, {"Criadores e informação", "Bem vindo ao Hub, e este hub foi feito por : Styxznx { dono } e Trev0rZStud1o"})
+
+AddButton(Main, {
+  Name = "📌🔗  - Clique para copiar o @ do styxznx do TIKTOK!",
+  Callback = function()
+    setclipboard("_styxznx7_")
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🔗 - Clique para copiar o @ do Trev0rZStud1o do TIKTOK",
+  Callback = function()
+   setclipboard("@Trev0rZStud1o") 
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🔗 - Clique para copiar o servidor do discord Imperial Wine!",
+  Callback = function()
+    setclipboard("https://disboard.org/server/1208876597311053905")
+  end
+})
+
+local Image = AddImageLabel(Main, {
+  Name = "IMPERIAL  #ON TOP!",
+  Image = "rbxassetid://17527279121"
+})
+
+local Main = MakeTab({Name = "🔱 - Scripts   Fav"})
+
+local section = AddSection(Main, {"🐉💥 -  Novos "})
+
+AddButton(Main, {
+  Name = "💎 - Nameless - Ant-byfron",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+  end
+})
+
+AddButton(Main, {
+  Name = "🧨 - Hit Box",
+  Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()
+end
+}) 
+
+AddButton(Main, {
+  Name = "🌊 - Fly Gui",
+  Callback = function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fly-v3-7412"))()
+ end
+}) 
+ 
+AddButton(Main, {
+  Name = "🍀 -  Trevo4 Hub",
+  Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+  end
+})
+
+local Main = MakeTab({Name = "🏠 -  HOME"})
+
+AddButton(Main, {
+  Name = "🔥 - Redz Hub ",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))() 
+  end
+})
+
+AddButton(Main, {
+  Name = "🪐 -  JulHub / IceHub ",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "🦋 - Antares Hub ",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BorisLua/AntaresHubSuaMaeNaMinhaCama/main/AntaresHubWorking.lua"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "👽 - Menu Troll",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/Menu%Trolling%Denfese//TROLL.lua"))()
+      end
+})
+
+AddButton(Main, {
+  Name = "🐭 - R4D Hub ",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+  end
+})
+
+
+AddButton(Main, {
+  Name = "🔌 - Juanko - Hub",
+  Callback = function()
+    loadstring(game:HttpGet("https://pastefy.app/tIiioko4/raw"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "🔩 Painel Adm",
+  Callback = function()
+     loadstring(game:HttpGet("https://freenote.biz/raw/Rk3INLZtUF",true))()
+  end
+})
+
+AddButton(Main, {
+    Name = " 🎩 - Silent Hub
+Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SilentExpl/Loader-Source-/main/SilentHub-BrookhavenRP.md'))()
+end
+}) 
+
+AddButton(Main, {
+  Name = "🛠  - All Tools (Visual)",
+  Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Ctqjmtkv", true))()
+  end
+})
+
+AddButton(Main, {
+  Name = "🛋 -  SOFÁ",
+  Callback = function()
+    local args = {
+    [1] = "PickingTools",
+    [2] = "Couch"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+           end
+})
+
+AddButton(Main, {
+  Name = "❌⚒️ -  Limpar Inventário",
+  Callback = function()
+    local args = {
+    [1] = "ClearAllTools"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Clea1rTool1s"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "⚙️ -  TP Tool",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/KptHadesBlair/main/Bao.lua"))()
+       end
+})
+
+AddButton(Main, {
+  Name = "🔨 - F3X",
+  Callback = function()
+    loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+           end
+})
+
+local Main = MakeTab({Name = "👾 -  Main Troll"})
+
+AddButton(Main, {
+  Name = "🪑❌ - No sit v1 + v2",
+  Callback = function()
+    antisit = true
+if antisit == false then 
+    for sitpart,allsitpart in pairs(game.workspace:GetDescendants()) do
+        if allsitpart:IsA("Seat") or allsitpart:IsA("VehicleSeat") then
+            if allsitpart.Disabled == true then
+                allsitpart.Disabled = false
+            end
+        end
+    end
+    return 
+elseif antisit == true then
+    if game.Players.LocalPlayer.Character.Humanoid.Sit == true then
+        task.wait()
+        game.Players.LocalPlayer.Character.Humanoid.Sit = false
+    end
+    for sitpart,allsitpart in pairs(game.workspace:GetDescendants()) do
+        if allsitpart:IsA("Seat") or allsitpart:IsA("VehicleSeat") then
+            if allsitpart.Disabled == false then
+                allsitpart.Disabled = true
+            end
+        end
+    end
+end
+local function asdawdsccxxc(allsitparttt)
+    if allsitparttt:IsA("Seat") or allsitparttt:IsA("VehicleSeat") then
+        if allsitparttt.Disabled == false then
+            allsitparttt.Disabled = true
+        end
+    end
+end
+game:GetService("Workspace").DescendantAdded:Connect(
+    function(allsitparttt)
+        asdawdsccxxc(allsitparttt)
+    end)
+  end
+})
+
+AddButton(Main, {
+  Name = "🔱 - Super fling 1 ",
+  Callback = function()
+    local Targets = {"All"} -- "All", "Target Name", "arian_was_here"
+
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+
+local AllBool = false
+
+local GetPlayer = function(Name)
+    Name = Name:lower()
+    if Name == "all" or Name == "others" then
+        AllBool = true
+        return
+    elseif Name == "random" then
+        local GetPlayers = Players:GetPlayers()
+        if table.find(GetPlayers,Player) then table.remove(GetPlayers,table.find(GetPlayers,Player)) end
+        return GetPlayers[math.random(#GetPlayers)]
+    elseif Name ~= "random" and Name ~= "all" and Name ~= "others" then
+        for _,x in next, Players:GetPlayers() do
+            if x ~= Player then
+                if x.Name:lower():match("^"..Name) then
+                    return x;
+                elseif x.DisplayName:lower():match("^"..Name) then
+                    return x;
+                end
+            end
+        end
+    else
+        return
+    end
+end
+
+local Message = function(_Title, _Text, Time)
+    game:GetService("StarterGui"):SetCore("SendNotification", {Title = _Title, Text = _Text, Duration = Time})
+end
+
+local SkidFling = function(TargetPlayer)
+    local Character = Player.Character
+    local Humanoid = Character and Character:FindFirstChildOfClass("Humanoid")
+    local RootPart = Humanoid and Humanoid.RootPart
+
+    local TCharacter = TargetPlayer.Character
+    local THumanoid
+    local TRootPart
+    local THead
+    local Accessory
+    local Handle
+
+    if TCharacter:FindFirstChildOfClass("Humanoid") then
+        THumanoid = TCharacter:FindFirstChildOfClass("Humanoid")
+    end
+    if THumanoid and THumanoid.RootPart then
+        TRootPart = THumanoid.RootPart
+    end
+    if TCharacter:FindFirstChild("Head") then
+        THead = TCharacter.Head
+    end
+    if TCharacter:FindFirstChildOfClass("Accessory") then
+        Accessory = TCharacter:FindFirstChildOfClass("Accessory")
+    end
+    if Accessoy and Accessory:FindFirstChild("Handle") then
+        Handle = Accessory.Handle
+    end
+
+    if Character and Humanoid and RootPart then
+        if RootPart.Velocity.Magnitude < 50 then
+            getgenv().OldPos = RootPart.CFrame
+        end
+        if THumanoid and THumanoid.Sit and not AllBool then
+            return Message("Error Occurred", "Targeting is sitting", 5) -- u can remove dis part if u want lol
+        end
+        if THead then
+            workspace.CurrentCamera.CameraSubject = THead
+        elseif not THead and Handle then
+            workspace.CurrentCamera.CameraSubject = Handle
+        elseif THumanoid and TRootPart then
+            workspace.CurrentCamera.CameraSubject = THumanoid
+        end
+        if not TCharacter:FindFirstChildWhichIsA("BasePart") then
+            return
+        end
+        
+        local FPos = function(BasePart, Pos, Ang)
+            RootPart.CFrame = CFrame.new(BasePart.Position) * Pos * Ang
+            Character:SetPrimaryPartCFrame(CFrame.new(BasePart.Position) * Pos * Ang)
+            RootPart.Velocity = Vector3.new(9e7, 9e7 * 10, 9e7)
+            RootPart.RotVelocity = Vector3.new(9e8, 9e8, 9e8)
+        end
+        
+        local SFBasePart = function(BasePart)
+            local TimeToWait = 2
+            local Time = tick()
+            local Angle = 0
+
+            repeat
+                if RootPart and THumanoid then
+                    if BasePart.Velocity.Magnitude < 50 then
+                        Angle = Angle + 100
+
+                        FPos(BasePart, CFrame.new(0, 1.5, 0) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle),0 ,0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(2.25, 1.5, -2.25) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(-2.25, -1.5, 2.25) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, 0) + THumanoid.MoveDirection,CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0) + THumanoid.MoveDirection,CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+                    else
+                        FPos(BasePart, CFrame.new(0, 1.5, THumanoid.WalkSpeed), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, -THumanoid.WalkSpeed), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, THumanoid.WalkSpeed), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+                        
+                        FPos(BasePart, CFrame.new(0, 1.5, TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, -TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5 ,0), CFrame.Angles(math.rad(-90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(0, 0, 0))
+                        task.wait()
+                    end
+                else
+                    break
+                end
+            until BasePart.Velocity.Magnitude > 500 or BasePart.Parent ~= TargetPlayer.Character or TargetPlayer.Parent ~= Players or not TargetPlayer.Character == TCharacter or THumanoid.Sit or Humanoid.Health <= 0 or tick() > Time + TimeToWait
+        end
+        
+        workspace.FallenPartsDestroyHeight = 0/0
+        
+        local BV = Instance.new("BodyVelocity")
+        BV.Name = "EpixVel"
+        BV.Parent = RootPart
+        BV.Velocity = Vector3.new(30e28, 30e28, 30e28)
+        BV.MaxForce = Vector3.new(20/0, 20/0, 20/0)
+        
+        Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, false)
+        
+        if TRootPart and THead then
+            if (TRootPart.CFrame.p - THead.CFrame.p).Magnitude > 5 then
+                SFBasePart(THead)
+            else
+                SFBasePart(TRootPart)
+            end
+        elseif TRootPart and not THead then
+            SFBasePart(TRootPart)
+        elseif not TRootPart and THead then
+            SFBasePart(THead)
+        elseif not TRootPart and not THead and Accessory and Handle then
+            SFBasePart(Handle)
+        else
+            return Message("Error Occurred", "Target is missing everything", 5)
+        end
+        
+        BV:Destroy()
+        Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, true)
+        workspace.CurrentCamera.CameraSubject = Humanoid
+        
+        repeat
+            RootPart.CFrame = getgenv().OldPos * CFrame.new(0, .5, 0)
+            Character:SetPrimaryPartCFrame(getgenv().OldPos * CFrame.new(0, .5, 0))
+            Humanoid:ChangeState("GettingUp")
+            table.foreach(Character:GetChildren(), function(_, x)
+                if x:IsA("BasePart") then
+                    x.Velocity, x.RotVelocity = Vector3.new(), Vector3.new()
+                end
+            end)
+            task.wait()
+        until (RootPart.Position - getgenv().OldPos.p).Magnitude < 25
+        workspace.FallenPartsDestroyHeight = getgenv().FPDH
+    else
+        return Message("Error Occurred", "Random error", 5)
+    end
+end
+
+if not Welcome then Message("Script by AnthonyIsntHere", "Enjoy!", 5) end
+getgenv().Welcome = true
+if Targets[1] then for _,x in next, Targets do GetPlayer(x) end else return end
+
+if AllBool then
+    for _,x in next, Players:GetPlayers() do
+        SkidFling(x)
+    end
+end
+
+for _,x in next, Targets do
+    if GetPlayer(x) and GetPlayer(x) ~= Player then
+        if GetPlayer(x).UserId ~= 1414978355 then
+            local TPlayer = GetPlayer(x)
+            if TPlayer then
+                SkidFling(TPlayer)
+            end
+        else
+            Message("Error Occurred", "This user is whitelisted! (Owner)", 5)
+        end
+    elseif not GetPlayer(x) and not AllBool then
+        Message("Error Occurred", "Username Invalid", 5)
+    end
+end
+  end
+})
+
+AddButton(Main, {
+  Name = "💢 - Super fling 2",
+  Callback = function()
+    local args = {
+    [1] = "PickingTools",
+    [2] = "Couch"
+}
+ 
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
+
+local Targets = {"All"} -- "All", "Target Name", "arian_was_here"
+
+local Players = game:GetService("Players")
+local Player = Players.LocalPlayer
+
+local AllBool = false
+
+local GetPlayer = function(Name)
+    Name = Name:lower()
+    if Name == "all" or Name == "others" then
+        AllBool = true
+        return
+    elseif Name == "random" then
+        local GetPlayers = Players:GetPlayers()
+        if table.find(GetPlayers,Player) then table.remove(GetPlayers,table.find(GetPlayers,Player)) end
+        return GetPlayers[math.random(#GetPlayers)]
+    elseif Name ~= "random" and Name ~= "all" and Name ~= "others" then
+        for _,x in next, Players:GetPlayers() do
+            if x ~= Player then
+                if x.Name:lower():match("^"..Name) then
+                    return x;
+                elseif x.DisplayName:lower():match("^"..Name) then
+                    return x;
+                end
+            end
+        end
+    else
+        return
+    end
+end
+
+local Message = function(_Title, _Text, Time)
+    game:GetService("StarterGui"):SetCore("SendNotification", {Title = _Title, Text = _Text, Duration = Time})
+end
+
+local SkidFling = function(TargetPlayer)
+    local Character = Player.Character
+    local Humanoid = Character and Character:FindFirstChildOfClass("Humanoid")
+    local RootPart = Humanoid and Humanoid.RootPart
+
+    local TCharacter = TargetPlayer.Character
+    local THumanoid
+    local TRootPart
+    local THead
+    local Accessory
+    local Handle
+
+    if TCharacter:FindFirstChildOfClass("Humanoid") then
+        THumanoid = TCharacter:FindFirstChildOfClass("Humanoid")
+    end
+    if THumanoid and THumanoid.RootPart then
+        TRootPart = THumanoid.RootPart
+    end
+    if TCharacter:FindFirstChild("Head") then
+        THead = TCharacter.Head
+    end
+    if TCharacter:FindFirstChildOfClass("Accessory") then
+        Accessory = TCharacter:FindFirstChildOfClass("Accessory")
+    end
+    if Accessoy and Accessory:FindFirstChild("Handle") then
+        Handle = Accessory.Handle
+    end
+
+    if Character and Humanoid and RootPart then
+        if RootPart.Velocity.Magnitude < 50 then
+            getgenv().OldPos = RootPart.CFrame
+        end
+        if THumanoid and THumanoid.Sit and not AllBool then
+            return Message("Error Occurred", "Targeting is sitting", 5) -- u can remove dis part if u want lol
+        end
+        if THead then
+            workspace.CurrentCamera.CameraSubject = THead
+        elseif not THead and Handle then
+            workspace.CurrentCamera.CameraSubject = Handle
+        elseif THumanoid and TRootPart then
+            workspace.CurrentCamera.CameraSubject = THumanoid
+        end
+        if not TCharacter:FindFirstChildWhichIsA("BasePart") then
+            return
+        end
+        
+        local FPos = function(BasePart, Pos, Ang)
+            RootPart.CFrame = CFrame.new(BasePart.Position) * Pos * Ang
+            Character:SetPrimaryPartCFrame(CFrame.new(BasePart.Position) * Pos * Ang)
+            RootPart.Velocity = Vector3.new(9e7, 9e7 * 10, 9e7)
+            RootPart.RotVelocity = Vector3.new(9e8, 9e8, 9e8)
+        end
+        
+        local SFBasePart = function(BasePart)
+            local TimeToWait = 2
+            local Time = tick()
+            local Angle = 0
+
+            repeat
+                if RootPart and THumanoid then
+                    if BasePart.Velocity.Magnitude < 50 then
+                        Angle = Angle + 100
+
+                        FPos(BasePart, CFrame.new(0, 1.5, 0) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle),0 ,0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(2.25, 1.5, -2.25) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(-2.25, -1.5, 2.25) + THumanoid.MoveDirection * BasePart.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, 0) + THumanoid.MoveDirection,CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0) + THumanoid.MoveDirection,CFrame.Angles(math.rad(Angle), 0, 0))
+                        task.wait()
+                    else
+                        FPos(BasePart, CFrame.new(0, 1.5, THumanoid.WalkSpeed), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, -THumanoid.WalkSpeed), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, THumanoid.WalkSpeed), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+                        
+                        FPos(BasePart, CFrame.new(0, 1.5, TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, -TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, 1.5, TRootPart.Velocity.Magnitude / 1.25), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(math.rad(90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(0, 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5 ,0), CFrame.Angles(math.rad(-90), 0, 0))
+                        task.wait()
+
+                        FPos(BasePart, CFrame.new(0, -1.5, 0), CFrame.Angles(0, 0, 0))
+                        task.wait()
+                    end
+                else
+                    break
+                end
+            until BasePart.Velocity.Magnitude > 500 or BasePart.Parent ~= TargetPlayer.Character or TargetPlayer.Parent ~= Players or not TargetPlayer.Character == TCharacter or THumanoid.Sit or Humanoid.Health <= 0 or tick() > Time + TimeToWait
+        end
+        
+        workspace.FallenPartsDestroyHeight = 0/0
+        
+        local BV = Instance.new("BodyVelocity")
+        BV.Name = "EpixVel"
+        BV.Parent = RootPart
+        BV.Velocity = Vector3.new(30e28, 30e28, 30e28)
+        BV.MaxForce = Vector3.new(20/0, 20/0, 20/0)
+        
+        Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, false)
+        
+        if TRootPart and THead then
+            if (TRootPart.CFrame.p - THead.CFrame.p).Magnitude > 5 then
+                SFBasePart(THead)
+            else
+                SFBasePart(TRootPart)
+            end
+        elseif TRootPart and not THead then
+            SFBasePart(TRootPart)
+        elseif not TRootPart and THead then
+            SFBasePart(THead)
+        elseif not TRootPart and not THead and Accessory and Handle then
+            SFBasePart(Handle)
+        else
+            return Message("Error Occurred", "Target is missing everything", 5)
+        end
+        
+        BV:Destroy()
+        Humanoid:SetStateEnabled(Enum.HumanoidStateType.Seated, true)
+        workspace.CurrentCamera.CameraSubject = Humanoid
+        
+        repeat
+            RootPart.CFrame = getgenv().OldPos * CFrame.new(0, .5, 0)
+            Character:SetPrimaryPartCFrame(getgenv().OldPos * CFrame.new(0, .5, 0))
+            Humanoid:ChangeState("GettingUp")
+            table.foreach(Character:GetChildren(), function(_, x)
+                if x:IsA("BasePart") then
+                    x.Velocity, x.RotVelocity = Vector3.new(), Vector3.new()
+                end
+            end)
+            task.wait()
+        until (RootPart.Position - getgenv().OldPos.p).Magnitude < 25
+        workspace.FallenPartsDestroyHeight = getgenv().FPDH
+    else
+        return Message("Error Occurred", "Random error", 5)
+    end
+end
+
+if not Welcome then Message("Script by AnthonyIsntHere", "Enjoy!", 5) end
+getgenv().Welcome = true
+if Targets[1] then for _,x in next, Targets do GetPlayer(x) end else return end
+
+if AllBool then
+    for _,x in next, Players:GetPlayers() do
+        SkidFling(x)
+    end
+end
+
+for _,x in next, Targets do
+    if GetPlayer(x) and GetPlayer(x) ~= Player then
+        if GetPlayer(x).UserId ~= 1414978355 then
+            local TPlayer = GetPlayer(x)
+            if TPlayer then
+                SkidFling(TPlayer)
+            end
+        else
+            Message("Error Occurred", "This user is whitelisted! (Owner)", 5)
+        end
+    elseif not GetPlayer(x) and not AllBool then
+        Message("Error Occurred", "Username Invalid", 5)
+    end
+end
+  end
+})
+
+
+
+AddButton(Main, {
+  Name = "🌀 - Black Hole & Tools",
+  Callback = function()
+    --mause
+    loadstring(game:HttpGet(('https://pastefy.app/58d8d52G/raw'),true))()
+    --blackhole
+    loadstring(game:HttpGet(("https://pastefy.app/xEq348IR/raw"),true))()
+    --telekinesis
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/SAZXHUB/Control-update/main/README.md'),true))()
+  end
+})
+
+AddButton(Main, {
+  Name = "🖥 -  Noclip / Wall hack",
+  Callback = function()
+    --Click "Noclip" To enable noclip
+ --Click "Noclip" And jump to disable noclip
+local Workspace = game:GetService("Workspace")
+local CoreGui = game:GetService("CoreGui")
+local Players = game:GetService("Players")
+local Noclip = Instance.new("ScreenGui")
+local BG = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Toggle = Instance.new("TextButton")
+local StatusPF = Instance.new("TextLabel")
+local Status = Instance.new("TextLabel")
+local Credit = Instance.new("TextLabel")
+local Plr = Players.LocalPlayer
+local Clipon = false
+ 
+Noclip.Name = "Noclip"
+Noclip.Parent = game.CoreGui
+ 
+BG.Name = "BG"
+BG.Parent = Noclip
+BG.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+BG.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+BG.BorderSizePixel = 2
+BG.Position = UDim2.new(0.149479166, 0, 0.82087779, 0)
+BG.Size = UDim2.new(0, 210, 0, 127)
+BG.Active = true
+BG.Draggable = true
+ 
+Title.Name = "Title"
+Title.Parent = BG
+Title.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Title.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.BorderSizePixel = 2
+Title.Size = UDim2.new(0, 210, 0, 33)
+Title.Font = Enum.Font.Highway
+Title.Text = "Noclip"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.FontSize = Enum.FontSize.Size32
+Title.TextSize = 30
+Title.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.TextStrokeTransparency = 0
+ 
+Toggle.Parent = BG
+Toggle.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Toggle.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.BorderSizePixel = 2
+Toggle.Position = UDim2.new(0.152380958, 0, 0.374192119, 0)
+Toggle.Size = UDim2.new(0, 146, 0, 36)
+Toggle.Font = Enum.Font.Highway
+Toggle.FontSize = Enum.FontSize.Size28
+Toggle.Text = "toggle"
+Toggle.TextColor3 = Color3.new(1, 1, 1)
+Toggle.TextSize = 25
+Toggle.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.TextStrokeTransparency = 0
+ 
+StatusPF.Name = "StatusPF"
+StatusPF.Parent = BG
+StatusPF.BackgroundColor3 = Color3.new(1, 1, 1)
+StatusPF.BackgroundTransparency = 1
+StatusPF.Position = UDim2.new(0.314285725, 0, 0.708661377, 0)
+StatusPF.Size = UDim2.new(0, 56, 0, 20)
+StatusPF.Font = Enum.Font.Highway
+StatusPF.FontSize = Enum.FontSize.Size24
+StatusPF.Text = "Status:"
+StatusPF.TextColor3 = Color3.new(1, 1, 1)
+StatusPF.TextSize = 20
+StatusPF.TextStrokeColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+StatusPF.TextStrokeTransparency = 0
+StatusPF.TextWrapped = true
+ 
+Status.Name = "Status"
+Status.Parent = BG
+Status.BackgroundColor3 = Color3.new(1, 1, 1)
+Status.BackgroundTransparency = 1
+Status.Position = UDim2.new(0.580952346, 0, 0.708661377, 0)
+Status.Size = UDim2.new(0, 56, 0, 20)
+Status.Font = Enum.Font.Highway
+Status.FontSize = Enum.FontSize.Size14
+Status.Text = "off"
+Status.TextColor3 = Color3.new(0.666667, 0, 0)
+Status.TextScaled = true
+Status.TextSize = 14
+Status.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Status.TextWrapped = true
+Status.TextXAlignment = Enum.TextXAlignment.Left
+ 
+Credit.Name = "Creditos"
+Credit.Parent = BG
+Credit.BackgroundColor3 = Color3.new(1, 1, 1)
+Credit.BackgroundTransparency = 1
+Credit.Position = UDim2.new(0.195238099, 0, 0.866141737, 0)
+Credit.Size = UDim2.new(0, 128, 0, 17)
+Credit.Font = Enum.Font.SourceSans
+Credit.FontSize = Enum.FontSize.Size18
+Credit.Text = "Created by Styx"
+Credit.TextColor3 = Color3.new(1, 1, 1)
+Credit.TextSize = 16
+Credit.TextStrokeColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Credit.TextStrokeTransparency = 0
+Credit.TextWrapped = true
+ 
+Toggle.MouseButton1Click:connect(function()
+	if Status.Text == "off" then
+		Clipon = true
+		Status.Text = "on"
+		Status.TextColor3 = Color3.new(0,185,0)
+		Stepped = game:GetService("RunService").Stepped:Connect(function()
+			if not Clipon == false then
+				for a, b in pairs(Workspace:GetChildren()) do
+                if b.Name == Plr.Name then
+                for i, v in pairs(Workspace[Plr.Name]:GetChildren()) do
+                if v:IsA("BasePart") then
+                v.CanCollide = false
+                end end end end
+			else
+				Stepped:Disconnect()
+			end
+		end)
+	elseif Status.Text == "on" then
+		Clipon = false
+		Status.Text = "off"
+		Status.TextColor3 = Color3.new(170,0,0)
+	end
+end)
+  end
+})
+
+local Main = MakeTab({Name = "🛍 - Avatar"})
+
+local section = AddSection(Main, {"🎃 - HeadLess/Fe"})
+
+AddButton(Main, {
+  Name = "🎃 - Headless",
+  Callback = function()
+    local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 1,
+        [5] = 1,
+        [6] = 134082579
+    },
+    [3] = "by:REDz"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  	end    
+})
+
+local section = AddSection(Main, {"💀 - Korblox"})
+
+AddButton(Main, {
+  Name = "🦵 - Left Leg Korblox",
+  Callback = function()
+    local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 1,
+        [5] = 139607673,
+        [6] = 1
+    },
+    [3] = "by:REDz"
+}
+    
+    game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  	end    
+})
+    
+AddButton(Main, {
+  Name = "🦵 - Right Leg Korblox",
+  Callback = function()
+    local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 139607718,
+        [5] = 1,
+        [6] = 1
+    },
+    [3] = "by:REDz"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  	end    
+})
+
+local section = AddSection(Main, {"💨 - Ice"})
+
+AddButton(Main, {
+  Name = "🦿 - Left Leg Ice",
+  Callback = function()
+    local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 1,
+        [5] = 139572789,
+        [6] = 1
+    },
+    [3] = "by:REDz"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  	end    
+})
+
+AddButton(Main, {
+  Name = "🦿 - Right Leg Ice",
+  Callback = function()
+      		local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 1,
+        [3] = 1,
+        [4] = 139572888,
+        [5] = 1,
+        [6] = 1
+    },
+    [3] = "by:REDz"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  	end    
+})
+
+local section = AddSection(Main, {"👔 - Skins"})
+
+AddButton(Main, {
+  Name = "🍟 - Potato Gang",
+  Callback = function()
+    local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 5392155773,
+        [2] = 5392150804,
+        [3] = 5392146467,
+        [4] = 5392152751,
+        [5] = 5392148570,
+        [6] = 1
+    },
+    [3] = "by:REDz"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+end
+})
+
+AddButton(Main, {
+  Name = "🎩 - The Overseer",
+  Callback = function()
+    local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 81725326,
+        [2] = 81725366,
+        [3] = 81725392,
+        [4] = 1,
+        [5] = 1,
+        [6] = 1
+    },
+    [3] = "by:REDz"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+end
+})
+
+AddButton(Main, {
+  Name = "👺 - Full Korblox Skin",
+  Callback = function()
+    local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 139607770,
+        [2] = 139607625,
+        [3] = 139607570,
+        [4] = 139607718,
+        [5] = 139607673,
+        [6] = 1
+    },
+    [3] = "by:REDz"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  	end    
+})
+
+AddButton(Main, {
+  Name = "❄ - Ice Warrior",
+  Callback = function()
+    local args = {
+    [1] = "CharacterChange",
+    [2] = {
+        [1] = 1,
+        [2] = 139572697,
+        [3] = 139572600,
+        [4] = 139572888,
+        [5] = 139572789,
+        [6] = 139572973
+    },
+    [3] = "by:REDz"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Avata1rOrigina1l"):FireServer(unpack(args))
+  	end    
+})
+
+AddButton(Main, {
+  Name = "🪓 - Jeff The killer",
+  Callback = function()
+    local args = {
+    [1] = "wear",
+    [2] = 14502327402
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
+end    
+})
+
+AddButton(Main, {
+  Name = "🟢 - Mario Victim 1",
+  Callback = function()
+    local args = {
+    [1] = "wear",
+    [2] = 14732524763
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
+end    
+})
+
+AddButton(Main, {
+  Name = "👁 - Jermas Eyes",
+  Callback = function()
+    local args = {
+    [1] = "wear",
+    [2] = 14817978441
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
+end    
+})
+
+AddButton(Main, {
+  Name = "👀 - Angry Munci & scary Eyes",
+  Callback = function()
+    local args = {
+    [1] = "wear",
+    [2] = 14701936208
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Updat1eAvata1r"):FireServer(unpack(args))
+end    
+})
+
+local Main = MakeTab({Name = "❄ - Others"})
+
+local section = AddSection(Main, {"💠 - Outros Guis e funções de kills"})
+
+AddButton(Main, {
+  Name = "🦖 -  Arceus X -  v3 fake",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "🌀 - Pendulum Hub ",
+  Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+  end
+})
+
+AddButton(Main, {
+  Name = " 🤺 - Fe fling Hub",
+  Callback = function()
+    loadstring(game:HttpGet("https://paste.ee/r/NTtmf", true))()
+  end
+})
+
+AddButton(Main, {
+  Name = "⌨️ - Keyboard",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GGH52lan/GGH52lan/main/keyboard.txt"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "🐢 - Turtle Spy",
+  Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/BDhSQqUU", true))()
+  end
+})
+
+AddButton(Main, {
+  Name = "🚪 - Backdoor hub",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
+  end
+})
+
+AddButton(Main, {
+  Name = " ☁ -  Invisible Hub",
+  Callback = function()
+     loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+  end
+})
+
+AddButton(Main, {
+  Name = "🎮 - Game Hub",
+  Callback = function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-Script/main/Games%20Hub%20(Always%20updated)"))()
+  end
+})
+
+local Main = MakeTab({Name = "🚗 -  Carros"})
+
+local Paragraph = AddParagraph(Main, {"Aviso", "bom dia meus manos"})
+
+SetParagraph(Paragraph, {"⚠️ AVISO ⚠️", "Trev0rZStud1o: Bem-vindo a sessão de carros. Feita por: Trev0rZStud1o /Espero que goste!!! ❤"})
+
+local Label = AddTextLabel(Main, "Config Car Section")
+
+SetLabel(Label, "💥 - Config Car Section")
+
+AddButton(Main, {
+  Name = "🚚📌 - Spawn Caminhão",
+  Callback = function()
+    local args = {
+    [1] = "PickingCar",
+    [2] = "Semi"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Ca1r"):FireServer(unpack(args))
+  end
+})
+
+AddButton(Main, {
+  Name = "🚚🏷 - Mudar bio do caminhão para: 🌐 IMPERIAL HUB 🌐",
+  Callback = function()
+    local args = {
+    [1] = "ReturningSemiName",
+    [2] = "🌐 IMPERIAL HUB 🌐"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Cemeter1y"):FireServer(unpack(args))
+     
+  end 
+})
+
+AddButton(Main, {
+  Name = "🚚🏷 - Mudar bio do caminhão para: 🌐 IMPERIAL ATTCK🌐",
+  Callback = function()
+    local args = {
+    [1] = "ReturningSemiName",
+    [2] = "🌐 IIMPERIAL ATTACK 🌐"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Cemeter1y"):FireServer(unpack(args))
+     
+  end 
+})
+
+AddButton(Main, {
+  Name = "🚚🏷 - Mudar bio do caminhão para: 🌐 IMPERIAL 🌐",
+  Callback = function()
+    local args = {
+    [1] = "ReturningSemiName",
+    [2] = "🌐 IMPERIAL 🌐"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Cemeter1y"):FireServer(unpack(args))
+     
+  end 
+})
+
+AddButton(Main, {
+  Name = "🚚 🏷- Mudar bio do caminhão para: 🌐 SCRIPTER IN SERVER 🌐",
+  Callback = function()
+    local args = {
+    [1] = "ReturningSemiName",
+    [2] = "🌐 SCRIPTER IN SERVER 🌐"
+}
+
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Cemeter1y"):FireServer(unpack(args))
+     
+  end 
+})
+
+local Slider = AddSlider(Main, {
+  Name = "🛹 - Velocidade: Skate/Bicicleta/etc",
+  MinValue = 30,
+  MaxValue = 500,
+  Default = 25,
+  Increase = 1,
+  Callback = function(Value)
+    local player = game.Players.LocalPlayer
+local character = player.Character.Humanoid
+
+character.WalkSpeed = (Value)
+  end
+})
+
+AddButton(Main, {
+  Name = "🛫 - Vehicle fly",
+  Callback = function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MHE1cbWF"))()
+  end
+})
+
+local Main = MakeTab({Name = "🕹 - Teleportes"})
+
+local section = AddSection(Main, {"Teleports *FE* - Made by : IIMaj0rH00ma [ Onwer of hub ]"})
+
+AddButton(Main, {
+  Name = "📍✈️ - Teleporte Aeroporto  ",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = 316 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 5 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 31 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📍🏥 - Teleporte Hospital",
+  Callback = function()
+        -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -334 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 17 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 81 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📍🚓 - Teleporte Delegacia",
+  Callback = function()
+        -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -166 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 30 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 34-- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📍⛰️ - Teleporte Montanha",
+  Callback = function()
+        -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -666 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 251 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 759 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📍🚀 - Teleporte Avião",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = 450 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = -107 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 107 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📍🗽- Teleporte Escola",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -362 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 19 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 214 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = " 📌🏠 - Área  Casa 36",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = 247 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 19 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -2311 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📍🏕 - Teleporte Acampamento",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -241 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 4 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 1078 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📍🎉 - Teleporte Clube",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -71 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 20 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -134 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📍🚓 -  Teleporte Secret Delegacia",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -122 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = -27 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 241 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 11",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -20 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 35 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 428 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 12",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = 152 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 35 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 428 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 13",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = 233 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 34 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 430 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 14",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = 252 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 35 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 394 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 15",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = 148-- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 35 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 394 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 16",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -24 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 35 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 395 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 17",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -190 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 35 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -251 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name =" 📌🏠 - Área Casa: 18",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -350 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 35 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -253 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 19",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -454 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 35 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -254 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "??🏠 - Área Casa: 20",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -459 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 45 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -289 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 21",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -352 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 35 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -289 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 22",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -192 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 35 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -288 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 23",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -404 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 67 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -444 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 24",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -339 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 67 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -491 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+--othersHouses
+
+local section = AddSection(Main, {"Premium House's Teleport *FE*"})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 28",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -100 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 4 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 1090 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 29",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -732 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 4 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 814 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 30",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -246 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 5 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 820 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 31",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = 663 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 75 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -354 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 32",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -903 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 4 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -359 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = ":📌🏠 - Área Casa 33",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -118 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 67 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -416 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 34",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = 229 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 36 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 567 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 35",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = 0 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 0 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 2201 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 36",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = 250 -- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 15 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = -2330 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+AddButton(Main, {
+  Name = "📌🏠 - Área Casa: 37",
+  Callback = function()
+    -- Script de teleporte para coordenadas específicas no Roblox
+local jogador = game.Players.LocalPlayer -- Obtém o jogador local
+local coordenadaX = -1950-- Substitua pelo valor da coordenada X desejada
+local coordenadaY = 32 -- Substitua pelo valor da coordenada Y desejada
+local coordenadaZ = 327 -- Substitua pelo valor da coordenada Z desejada
+-- Teleporta o jogador para as coordenadas especificadas
+jogador.Character:SetPrimaryPartCFrame(CFrame.new(coordenadaX, coordenadaY, coordenadaZ))
+  end
+})
+
+local section = AddSection(Main, {"🧭 - Coordinate Gui"})
+
+AddButton(Main, {
+  Name = "Coordinate Gui",
+  Callback = function()
+    local S = Instance.new("ScreenGui")
+local L = Instance.new("Frame")
+local D = Instance.new("Frame")
+local T = Instance.new("TextButton")
+local X = Instance.new("TextBox")
+local Z = Instance.new("TextBox")
+local Y = Instance.new("TextBox")
+local V = Instance.new("TextLabel")
+local H = Instance.new("TextLabel")
+local C = Instance.new("TextButton")
+
+--- This sets the PlaceHolderText to the players current CFrame ---
+local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+local CF = P.CFrame
+local Cx, Cy, Cz, m11, m12, m13, m21, m22, m23, m31, m32, m33 = CF:components()
+--- This sets the PlaceHolderText to the players current CFrame ---
+
+S.Name = "S"
+S.Parent = game:WaitForChild("CoreGui")
+S.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+L.Name = "L"
+L.Parent = S
+L.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+L.BorderColor3 = Color3.fromRGB(110, 110, 110)
+L.Position = UDim2.new(0.321100891, 0, 0.282937378, 0)
+L.Size = UDim2.new(0, 350, 0, 200)
+L.Active = true
+L.Draggable = true
+
+D.Name = "D"
+D.Parent = L
+D.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+D.BorderColor3 = Color3.fromRGB(110, 110, 110)
+D.Position = UDim2.new(0.042857144, 0, 0.200000003, 0)
+D.Size = UDim2.new(0, 320, 0, 145)
+
+T.Name = "T"
+T.Parent = D
+T.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+T.BorderColor3 = Color3.fromRGB(84, 92, 38)
+T.Position = UDim2.new(0.046875, 0, 0.551724136, 0)
+T.Size = UDim2.new(0, 289, 0, 50)
+T.Font = Enum.Font.Gotham
+T.Text = "Teleport"
+T.TextColor3 = Color3.fromRGB(255, 255, 255)
+T.TextSize = 15.000
+T.MouseButton1Click:connect(function()
+P.CFrame = CFrame.new(X.Text, Y.Text, Z.Text)
+end)
+
+X.Name = "X"
+X.Parent = D
+X.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+X.BorderColor3 = Color3.fromRGB(96, 12, 12)
+X.Position = UDim2.new(0.046875, 0, 0.103448279, 0)
+X.Size = UDim2.new(0, 86, 0, 50)
+X.Font = Enum.Font.Gotham
+X.PlaceholderText = Cx
+X.Text = ""
+X.TextColor3 = Color3.fromRGB(255, 255, 255)
+X.TextSize = 14.000
+
+Z.Name = "Z"
+Z.Parent = D
+Z.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Z.BorderColor3 = Color3.fromRGB(96, 12, 12)
+Z.Position = UDim2.new(0.681249976, 0, 0.103448279, 0)
+Z.Size = UDim2.new(0, 86, 0, 50)
+Z.Font = Enum.Font.Gotham
+Z.PlaceholderText = Cz
+Z.Text = ""
+Z.TextColor3 = Color3.fromRGB(255, 255, 255)
+Z.TextSize = 14.000
+
+Y.Name = "Y"
+Y.Parent = D
+Y.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Y.BorderColor3 = Color3.fromRGB(96, 12, 12)
+Y.Position = UDim2.new(0.365624994, 0, 0.103448279, 0)
+Y.Size = UDim2.new(0, 85, 0, 50)
+Y.Font = Enum.Font.Gotham
+Y.PlaceholderText = Cy
+Y.Text = ""
+Y.TextColor3 = Color3.fromRGB(255, 255, 255)
+Y.TextSize = 14.000
+
+V.Name = "V"
+V.Parent = L
+V.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+V.BackgroundTransparency = 1.000
+V.BorderSizePixel = 0
+V.Position = UDim2.new(0.042857144, 0, 0, 0)
+V.Size = UDim2.new(0, 140, 0, 40)
+V.Font = Enum.Font.GothamBold
+V.Text = "o u s e V 3 r m"
+V.TextColor3 = Color3.fromRGB(255, 255, 255)
+V.TextSize = 14.000
+
+H.Name = "H"
+H.Parent = L
+H.BackgroundColor3 = Color3.fromRGB(186, 3, 3)
+H.BackgroundTransparency = 1.000
+H.BorderSizePixel = 0
+H.Position = UDim2.new(0.042857144, 0, 0, 0)
+H.Size = UDim2.new(0, 25, 0, 40)
+H.Font = Enum.Font.GothamBold
+H.Text = "H"
+H.TextColor3 = Color3.fromRGB(186, 3, 3)
+H.TextSize = 16.000
+
+C.Name = "C"
+C.Parent = L
+C.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+C.BackgroundTransparency = 1.000
+C.BorderSizePixel = 0
+C.Position = UDim2.new(0.885714352, 0, 0, 0)
+C.Size = UDim2.new(0, 40, 0, 40)
+C.Font = Enum.Font.GothamBold
+C.Text = "X"
+C.TextColor3 = Color3.fromRGB(255, 255, 255)
+C.TextSize = 14.000
+C.MouseButton1Click:connect(function()
+S:Destroy()
+end)
+
+--- This auto-updates the PlaceHolderText to the players current CFrame ---
+while true do
+  function update ()
+    local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+    local CF = P.CFrame
+    local Cx, Cy, Cz, m11, m12, m13, m21, m22, m23, m31, m32, m33 = CF:components()
+    X.PlaceholderText = math.floor(Cx+0.5)
+    Y.PlaceholderText = math.floor(Cy+0.5)
+    Z.PlaceholderText = math.floor(Cz+0.5)
+  end
+  pcall ( update )
+  wait()
+end
+--- This auto-updates the PlaceHolderText to the players current CFrame ---- 
+  end
+})
+
+
+
+
+local Main = MakeTab({Name = "🏷 - Nomes"})
+
+AddButton(Main, {
+  Name = "Name: 🌐 UNWELL 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 Unwell🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 NOKIA ADM 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 Nokia Adm 🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 ERROR 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 ERROR 🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 Malandro 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 Malandro 🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 Trie_Xav 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 Trie Xav🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 OWNER 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 Owner 🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 DARK 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 Dark🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 Styxznx",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 Styxnxn 🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 ROMAO 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 Romão 🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐THE  ADMIN 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 THE  ADMIN 🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 NotFound 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 NotFound 🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 IMPERIAL 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 IMPERIAL 🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 IMPERIAL MEMBER 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 IMPERIAL MEMBRO 🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 MY LORD🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 MY LORD🌐")
+  end
+})
+
+AddButton(Main, {
+  Name = "Name: 🌐 ANTI KIDS 🌐",
+  Callback = function()
+    game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName","🌐 ANTI KIDS 🌐")
+  end
+})
+
+local Main = MakeTab({Name = "💊 - DIVERSOS"})
+
+local section = AddSection(Main, {"💣 - Op Kill"})
+
+AddButton(Main, {
+  Name = "🔪 - Op Kill - Imperial Hub",
+  Callback = function()
+    local lp = game:FindService("Players").LocalPlayer
+
+local function gplr(String)
+	local Found = {}
+	local strl = String:lower()
+	if strl == "all" then
+		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+			table.insert(Found,v)
+		end
+	elseif strl == "others" then
+		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+			if v.Name ~= lp.Name then
+				table.insert(Found,v)
+			end
+		end 
+	elseif strl == "me" then
+		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+			if v.Name == lp.Name then
+				table.insert(Found,v)
+			end
+		end 
+	else
+		for i,v in pairs(game:FindService("Players"):GetPlayers()) do
+			if v.Name:lower():sub(1, #String) == String:lower() then
+				table.insert(Found,v)
+			end
+		end 
+	end
+	return Found 
+end
+
+local function notif(str,dur)
+	game:FindService("StarterGui"):SetCore("SendNotification", {
+		Title = "Imperial Hub OP Fling",
+		Text = str,
+		Icon = "rbxassetid://17527279121",
+		Duration = dur or 3
+	})
+end
+
+--// sds
+
+local h = Instance.new("ScreenGui")
+local Main = Instance.new("ImageLabel")
+local Top = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local TextButton = Instance.new("TextButton")
+
+h.Name = "h"
+h.Parent = game:GetService("CoreGui")
+h.ResetOnSpawn = false
+
+Main.Name = "Main"
+Main.Parent = h
+Main.Active = true
+Main.Draggable = true
+Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.174545452, 0, 0.459574461, 0)
+Main.Size = UDim2.new(0, 454, 0, 218)
+Main.Image = "rbxassetid://17527279121"
+
+Top.Name = "Top"
+Top.Parent = Main
+Top.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+Top.BorderSizePixel = 0
+Top.Size = UDim2.new(0, 454, 0, 44)
+
+Title.Name = "Title"
+Title.Parent = Top
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0, 0, 0.295454562, 0)
+Title.Size = UDim2.new(0, 454, 0, 30)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "🛡 - Op Kill Imperial Hub"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+TextBox.Parent = Main
+TextBox.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0704845786, 0, 0.270642221, 0)
+TextBox.Size = UDim2.new(0, 388, 0, 62)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "Player name Here"
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.10352423, 0, 0.596330225, 0)
+TextButton.Size = UDim2.new(0, 359, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Kill Player"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextButton.MouseButton1Click:Connect(function()
+	local Target = gplr(TextBox.Text)
+	if Target[1] then
+		Target = Target[1]
+		
+		local Thrust = Instance.new('BodyThrust', lp.Character.HumanoidRootPart)
+		Thrust.Force = Vector3.new(99999,99999,99999)
+		Thrust.Name = "ImperialForce"
+		repeat
+			lp.Character.HumanoidRootPart.CFrame = Target.Character.HumanoidRootPart.CFrame
+			Thrust.Location = Target.Character.HumanoidRootPart.Position
+			game:FindService("RunService").Heartbeat:wait()
+		until not Target.Character:FindFirstChild("Head")
+	else
+		notif("Unknown Player")
+	end
+end)
+
+--//🍀
+notif("loaded with sucess", 5)
+  end
+})
+
+local Slider = AddSlider(Main, {
+  Name = "Walkspeed",
+  MinValue = 16,
+  MaxValue = 1500,
+  Default = 25,
+  Increase = 1,
+  Callback = function(Value)
+    local player = game.Players.LocalPlayer
+local character = player.Character.Humanoid
+
+character.WalkSpeed = Value
+  end
+})
+
+local Slider = AddSlider(Main, {
+  Name = "Jumppower",
+  MinValue = 50,
+  MaxValue = 1000,
+  Default = 50,
+  Increase = 1,
+  Callback = function(Value)
+    local player = game.Players.LocalPlayer
+local character = player.Character.Humanoid
+    
+character.JumpPower = Value
+  end
+})
+
+local section = AddSection(Main, {"📜 - Scripts"})
+
+AddButton(Main, {
+  Name = "🖍 - Mause - Script",
+  Callback = function()
+    loadstring(game:HttpGet(('https://pastefy.app/58d8d52G/raw'),true))()
+    end
+})
+
+AddButton(Main, {
+  Name = "🔗 -  InfiniteYield - Cmd",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  end
+})
+
+AddButton(Main, {
+  Name = "💬 - Chat Admin",
+  Callback = function()                     loadstring(game:HttpGet("https://raw.githubusercontent.com/game-hax/uca/main/release/uca.min.lua"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "💎 - Nameless Admin - Cmd",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+  end
+})
+
+AddButton(Main, {
+  Name = "👻 -  GhostHub - Universal Hub",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+  end
+})
+
+AddButton(Main, {
+  Name = "💰 -  Sistem brook ",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "👥 -  Clone Speed Script",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_11l7Y131YqJjZ31QmV5L8pI23V02b3191sEg26E75472Wl78Vi8870jRv5txZyL1.lua.txt"))()
+  end
+})
+
+AddButton(Main, {
+  Name = "🔒 - Shift Lock",
+  Callback = function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Permanent-Shiftlock-7513"))()
+    end
+})
+
+AddButton(Main, {
+  Name = "🌪 - Infinite jump",
+  Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/err0r129/SerpenteXByHadesBlair/main/Bao.lua"))()
+      end
+})
+
+AddButton(Main, {
+  Name = "🔭 -  Telescópio",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Telescope'))()
+      end
+})
+
+AddButton(Main, {
+  Name = "🔮 - Portal",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Portal'))()
+      end
+})
+
+AddButton(Main, {
+  Name = " 💼 - Itens Styx",
+  Callback = function()
+ loadstring(game:HttpGet(('https://pastefy.app/VYIAk3o1/raw'),true))()
+    end 
+})
+
+AddButton(Main, {
+  Name = "🥋 - God mod",
+  Callback = function() loadstring(game:HttpGet('https://pastefy.app/SIvsmWzk/raw'))()
+  end
+})
+AddButton(Main, {
+    Name = " 👀 - Esp ", 
+         Callback = function()
+loadstring(game:HttpGet"https://pastebin.com/raw/MbQqeRy9")()
+   end
+}) 
+
+AddButton(Main,{
+  Name = "⚫ -  VOID ",
+  Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Void'))()
+  end 
+})
+
+local args = {
+    [1] = "PickingTools",
+    [2] = "Couch"
+}
+ 
+game:GetService("ReplicatedStorage").RE:FindFirstChild("1Too1l"):InvokeServer(unpack(args))
