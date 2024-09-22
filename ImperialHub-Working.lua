@@ -1,1 +1,1 @@
-print("fixing calm down") 
+setclipboard("Fixing! / Em ajustes!!") 
