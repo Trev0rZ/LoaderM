@@ -1,1 +1,0 @@
-setclipboard("Fixing! / Em ajustes!!") 
